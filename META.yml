@@ -1,29 +1,29 @@
 ---
-name: Module-Info-File
-version: 0.11
+abstract: 'retrieves module information from a file or script'
 author:
   - 'Jonas B. Nielsen, <jonasbn@cpan.org>'
-abstract: retrieves module information from a file or script
+build_requires: {}
+configure_requires:
+  Module::Build: '0.42'
+dynamic_config: 1
+generated_by: 'Module::Build version 0.4205, CPAN::Meta::Converter version 2.142060'
 license: perl
-resources:
-  license: http://dev.perl.org/licenses/
-requires:
-  Carp: 0
-  Data::Dumper: 0
-  File::Spec: 0
-  Module::Info: 0.20
-  Test::Harness: 0
-  Test::More: 0
-  UNIVERSAL: 0
-provides:
-  Module::Info::File:
-    file: lib/Module/Info/File.pm
-    version: 0.11
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: '1.4'
+name: Module-Info-File
 no_index:
   directory:
     - drafts
     - t
-generated_by: Module::Build version 0.2806
-meta-spec:
-  url: http://module-build.sourceforge.net/META-spec-v1.2.html
-  version: 1.2
+requires:
+  Carp: '0'
+  Data::Dumper: '0'
+  File::Spec: '0'
+  Module::Info: '0.20'
+  Test::Harness: '0'
+  Test::More: '0'
+  UNIVERSAL: '0'
+resources:
+  license: http://dev.perl.org/licenses/
+version: '0.12'
