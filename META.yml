@@ -1,29 +1,28 @@
 ---
 abstract: 'retrieves module information from a file or script'
 author:
-  - 'Jonas B. Nielsen, <jonasbn@cpan.org>'
+  - 'Jonas B. Nielsen <jonasbn@cpan.org>'
 build_requires: {}
 configure_requires:
-  Module::Build: '0.42'
-dynamic_config: 1
-generated_by: 'Module::Build version 0.4205, CPAN::Meta::Converter version 2.142060'
-license: perl
+  ExtUtils::MakeMaker: 0
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 5.020, CPAN::Meta::Converter version 2.142060'
+license: artistic_2
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
-  version: '1.4'
+  version: 1.4
 name: Module-Info-File
-no_index:
-  directory:
-    - drafts
-    - t
 requires:
-  Carp: '0'
-  Data::Dumper: '0'
-  File::Spec: '0'
-  Module::Info: '0.20'
-  Test::Harness: '0'
-  Test::More: '0'
-  UNIVERSAL: '0'
+  Carp: 0
+  Data::Dumper: 0
+  File::Spec: 0
+  Module::Info: 0.20
+  Test::Harness: 0
+  Test::More: 0
+  UNIVERSAL: 0
+  perl: 5.006
 resources:
-  license: http://dev.perl.org/licenses/
-version: '0.12'
+  bugtracker: https://github.com/gitpan/Module-Info-File/issues
+  homepage: http://search.cpan.org/dist/Module-Info-File/
+  repository: https://github.com/jonasbn/Module-Info-File.git
+version: 0.13
