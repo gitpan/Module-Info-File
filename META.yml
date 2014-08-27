@@ -1,5 +1,5 @@
 ---
-abstract: 'retrieves module information from a file or script'
+abstract: 'retrieve module information from a file'
 author:
   - 'Jonas B. Nielsen <jonasbn@cpan.org>'
 build_requires: {}
@@ -19,10 +19,9 @@ requires:
   Module::Info: 0.20
   Test::Harness: 0
   Test::More: 0
-  UNIVERSAL: 0
   perl: 5.006
 resources:
   bugtracker: https://github.com/gitpan/Module-Info-File/issues
   homepage: http://search.cpan.org/dist/Module-Info-File/
   repository: https://github.com/jonasbn/Module-Info-File.git
-version: 0.13
+version: 0.14

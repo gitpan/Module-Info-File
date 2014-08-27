@@ -10,7 +10,7 @@ use ExtUtils::MakeMaker ;
 
 
 my %WriteMakefileArgs = (
-  "ABSTRACT" => "retrieves module information from a file or script",
+  "ABSTRACT" => "retrieve module information from a file",
   "AUTHOR" => "Jonas B. Nielsen <jonasbn\@cpan.org>",
   "CONFIGURE_REQUIRES" => {
     "ExtUtils::MakeMaker" => 0
@@ -25,10 +25,9 @@ my %WriteMakefileArgs = (
     "File::Spec" => 0,
     "Module::Info" => "0.20",
     "Test::Harness" => 0,
-    "Test::More" => 0,
-    "UNIVERSAL" => 0
+    "Test::More" => 0
   },
-  "VERSION" => "0.13",
+  "VERSION" => "0.14",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -41,8 +40,7 @@ my %FallbackPrereqs = (
   "File::Spec" => 0,
   "Module::Info" => "0.20",
   "Test::Harness" => 0,
-  "Test::More" => 0,
-  "UNIVERSAL" => 0
+  "Test::More" => 0
 );
 
 

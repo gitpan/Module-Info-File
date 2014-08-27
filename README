@@ -1,9 +1,9 @@
 
 
 This archive contains the distribution Module-Info-File,
-version 0.13:
+version 0.14:
 
-  retrieves module information from a file or script
+  retrieve module information from a file
 
 This software is Copyright (c) 2014 by Jonas B. Nielsen.
 
